@@ -1,0 +1,130 @@
+/* *{
+    background-color: rgb(246, 247, 248);
+} */
+/* console log css  */
+/* div{
+    border : 1px solid red;
+} */
+.border{
+    border-right: 2px;
+}
+.navbar{
+    font-weight: bold;
+}
+.border {
+    border-right: 2px;
+}
+/* .navcol{
+          display: block;
+         position: fixed;
+         top: 0;
+        bottom: 0;
+        width: 100%;
+        max-width: 15.625rem !important;
+        overflow-y: auto;
+        padding: 0;
+        box-shadow: none;
+        z-index : 9999;
+} */
+.sidenavs{
+    font-size: 16px;
+        font-weight: 600;
+        color: #505050;
+        padding: 10px;
+        list-style-type: none;
+}
+.sidenavs.active , .sidenavs.active i{
+    border: 1px solid #5146e7;
+    border-radius: 12px;
+    max-width:90%; 
+    background: #5146e7;
+    color: white;
+}
+
+.sidenavs:hover , .sidenavs:hover i{
+    border: 1px solid #5146e7;
+        border-radius: 12px;
+    max-width: 90%;
+        background: #5146e7;
+        color: white;
+        cursor: pointer;
+
+}
+.bold{
+    font-weight: bold;
+}
+.task{
+      display: inline;
+     /* padding: 4px; */
+     margin-left: 10px;
+    font-weight: 700;
+    }
+    .task.active{
+        color : black;
+        font-weight: bold;
+        border-bottom:  2px solid #5146e7;
+        padding-bottom: 5px;
+    }
+    .task:hover{
+    color: black;
+        font-weight: bold;
+        border-bottom: 2px solid #5146e7;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+.search{
+    border-radius: 10px;
+    border-color: rgb(226, 232, 232);
+}
+.filter{
+    border-radius: 10px;
+    border: none !important;
+    font-weight: 200;
+}
+.time{
+      font-weight: bold;
+     }
+.id-badge{
+    background-color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px !important;
+}
+
+.ticket{
+    border-radius: 25px !important;
+    border-style: none !important;
+}
+.img-rounded {
+    border-radius: 50%;
+}
+.recentact{
+    border-radius: 15px;
+}
+.recactivity{
+    margin-left: 8px;
+}
+.showmore{
+    text-align: center;
+    border-radius: 25px;
+}
+.min-height-vh-100{
+    min-height: 100vh;
+}
+
+
+
+.timeago{
+        min-width: 74px;
+            text-align: end;
+}
+
+.badge-notification{
+    margin-top : -5px;
+}footer{
+    bottom: 0;
+        left: 0;
+        position: fixed;
+        
+}
