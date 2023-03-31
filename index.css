@@ -1,6 +1,6 @@
-/* *{
-    background-color: rgb(246, 247, 248);
-} */
+*{
+    font-family: Arial, sans-serif;
+}
 /* console log css  */
 /* div{
     border : 1px solid red;
@@ -14,18 +14,52 @@
 .border {
     border-right: 2px;
 }
-/* .navcol{
-          display: block;
-         position: fixed;
-         top: 0;
-        bottom: 0;
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar a {
+    display: block;
+    /* color: black; */
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
         width: 100%;
-        max-width: 15.625rem !important;
-        overflow-y: auto;
-        padding: 0;
-        box-shadow: none;
-        z-index : 9999;
-} */
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
 .sidenavs{
     font-size: 16px;
         font-weight: 600;
@@ -122,9 +156,5 @@
 
 .badge-notification{
     margin-top : -5px;
-}footer{
-    bottom: 0;
-        left: 0;
-        position: fixed;
-        
 }
+
